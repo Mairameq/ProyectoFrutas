@@ -18,12 +18,17 @@ let imgFruta3 = 'http://source.unsplash.com/150x150?banana';
 fruta1.innerHTML = "<img src=" + imgFruta1 +">" +
                    "<h2>" + nombrefruta1 + "</h2>" + "<p>" + precioFruta1 + "</p>" + 
                    "<p>" + stockFruta1 +"</p>";
-fruta2.innerHTML = `
-                    <img src=${imgFruta2}/>
+fruta2.innerHTML = `<img src=${imgFruta2}/>
                     <h2>${nombrefruta2}</h2>
-                    
-                    
+                    <h2>${precioFruta2}</h2>
+                    <h2>${stockFruta2}</h2>                   
                     `
+fruta3.innerHTML = `<img src=${imgFruta3}/>
+                    <h2>${nombrefruta3}</h2>
+                    <h2>${precioFruta3}</h2>
+                    <h2>${stockFruta3}</h2>
+                    
+                    `                    
 
                    
                    
